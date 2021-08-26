@@ -1,0 +1,5 @@
+Credentials cache: API:6B08E1C0-E85E-439E-804E-E6F782FFAB02
+        Principal: ple-stra@42.FR
+
+  Issued                Expires               Principal
+Aug  2 12:45:04 2021  Aug  9 12:45:04 2021  krbtgt/42.FR@42.FR
