@@ -6,7 +6,7 @@
 /*   By: ple-stra <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/25 16:51:24 by ple-stra          #+#    #+#             */
-/*   Updated: 2021/08/26 16:34:10 by ple-stra         ###   ########.fr       */
+/*   Updated: 2021/08/26 22:14:02 by ple-stra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,9 @@
 int	err(t_err err_data)
 {
 	ft_putstr(err_data.bin_name, 1);
-	ft_putstr(": ", 2);
+	ft_putstr(": ", 1);
 	ft_putstr(err_data.file_name, 1);
-	ft_putstr(": ", 2);
+	ft_putstr(": ", 1);
 	ft_putstr(strerror(errno), 1);
 	ft_putchar('\n', 1);
 	return (-1);
